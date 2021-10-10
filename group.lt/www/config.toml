@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "terminal"
+
+[params]
+  contentTypeName = "post"
+  themeColor = "red"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "group.lt"
+    subtitle = "group.lt fediverse"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+
+    [languages.en.params.logo]
+      logoText = "group.lt"
+      logoHomeLink = "/"
